@@ -1,0 +1,2369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: Ubuntu;
+}
+
+button {
+      border: none;
+}
+
+body {
+    max-width: 1920px;
+    line-height: 1.4
+}
+
+
+/*start block1*/
+/*Start navigation*/
+.navbar{
+    background: #FFFFFF;
+    opacity: 0.95;
+}
+
+.nav-link , .navbar-brand{
+    font-family: Museo Sans Cyrl;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.nav-link:hover{
+    background: #f4f4f4;
+    color: #f97300;
+}
+
+.navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-toggler{
+    background:#fff;
+}
+
+
+/*End navigation*/
+/*Modal1*/
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    z-index: 100;
+}
+#modal .modal-content {
+    background-color: #fff;
+    max-width: 463px;
+    height: 413px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 24px 55px 54px 50px;
+}
+
+#modal .modal-content h2 {
+  	color: #3E3E3E;
+  	text-align: center;
+  	margin-bottom: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+}
+
+#modal .modal-content p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+      color: #3E3E3E;
+}
+
+#modal .modal-content input {
+  	width: 100%;
+  	padding-bottom: 6px;
+  	border: none;
+  	border-bottom: 1px solid #A0A0A0;
+  	font-family: Gilroy-Regular; 
+  	font-style: normal;
+  	font-weight: normal;
+  	font-size: 22px;
+  	line-height: 14px;
+  	color: #A6A6A6;
+  	margin-bottom: 28px;
+    outline: none;
+    text-align: center;
+}
+
+#modal .modal-content button {
+  	background-color: #FF8A00;
+    font-size: 100%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+#modal .modal-content .do-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    right: -30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.zoom {
+    animation: zoom 0.5s;
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+/*End modal1*/
+/*Modal1*/
+
+#modal1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    z-index: 100;
+}
+#modal1 .modal-content1 {
+    background-color: #fff;
+    max-width: 463px;
+    height: 413px;
+    margin: auto;
+    position: relative;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    padding: 24px 55px 54px 50px;
+}
+
+#modal1 .modal-content1 h2 {
+    color: #3E3E3E;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+    letter-spacing: 0.03em;
+}
+
+#modal1 .modal-content1 p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 16px;
+    color: #3E3E3E;
+}
+
+#modal1 .modal-content1 input {
+    width: 100%;
+    padding-bottom: 6px;
+    border: none;
+    border-bottom: 1px solid #A0A0A0;
+    font-family: Gilroy-Regular; 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 14px;
+    color: #A6A6A6;
+    margin-bottom: 28px;
+    outline: none;
+    text-align: center;
+}
+
+#modal1 .modal-content1 button {
+    background-color: #FF8A00;
+    font-size: 100%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+  }
+
+
+
+#modal1 .modal-content1 .do-close1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    top: -35px;
+    right: -30px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.zoom1 {
+    animation: zoom 0.5s;
+}
+
+@keyframes zoom1 {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/*End modal1*/
+
+
+/*Start Block1*/
+
+.block1 {
+    background: url("./pictures/forest.jpg");
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    
+}
+
+.offerandtent {
+    display: flex;
+    position: relative;
+    left: 148px;
+
+}
+
+    /*salesform*/
+.offer {
+    background-color: #fff;
+    width: 500px;
+    height: 700px;
+    opacity: 0.95;
+    border-radius: 29px;
+    position: relative;
+    left: 21%;
+    margin-top: 8%;  
+}
+
+.secondtext {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.salesform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.twoplace {
+   margin-bottom: 11%;
+}
+
+.open2 {
+    padding-left: 5%;
+    padding-top: 2%;
+}
+
+
+
+.firsttext {
+    color: #003E0D;
+    font-weight: 900;
+    opacity: 0.65;
+}
+
+.firstform {
+    color: #fff;
+    background-color: #FF8A00;
+    font-size: 110%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: relative;
+    left: 20px;
+}
+
+.wehave {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.03em;
+    color: rgba(94, 94, 94, 0.65);
+}
+
+  /*endsalesform*/
+.firsttentwithicons {
+    position: relative;
+    left: 24%;
+    top: 370px;
+}
+
+.bothicons {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.horizontalicons {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.verticalicons {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   transform: translate(290%, -110%);
+}
+
+          
+
+
+/*newTabs1*/
+
+.tabs-place { 
+    width: 339px;
+    height: 122px; 
+    padding-top: 0px; 
+    margin: 30px auto -3px; 
+    position: relative; 
+} 
+
+.test { 
+    display: none;  
+    background: white; 
+    position: absolute; 
+    top: -19px;
+    left: 80px; 
+} 
+
+p { 
+    margin: 0; 
+} 
+
+.text3 {
+    height: 60%;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text4 {
+    font-size: 16px;
+
+}
+
+.forFourPlace {
+    width: 55px;
+    height: 55px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.forTwoPlace {
+    width: 55px;
+    height: 55px;
+    border: 3px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs-place input { 
+    display: none; 
+} 
+
+.tabs-place label { 
+    display: block; 
+    width: 55px; 
+    height: 55px;
+    color: #4F5966;
+    background: #fff; 
+} 
+
+button {
+    cursor: pointer; 
+}
+
+input:checked + label { 
+    color: green;
+} 
+
+#content1block6 {
+      display: block; 
+}
+
+#tab1block1:checked ~ #content1block1, #tab2block1:checked ~ #content2block1 { 
+    display: block; 
+} 
+
+#tab1block6:checked ~ #content1block6, #tab2block6:checked ~ #content2block6 { 
+    display: block; 
+} 
+
+.test { 
+    animation: scale 0.7s ease-in-out; 
+} 
+
+@keyframes scale { 
+  0% { 
+  transform: scale(0.9); 
+  opacity: 0; 
+  } 
+  50% { 
+  transform: scale(1.005); 
+  opacity: 0.5; 
+  } 
+  100% { 
+  transform: scale(1); 
+  opacity: 1; 
+  } 
+}
+
+/*EndnewTabs1*/
+/*End Block1*/
+
+/*Block2*/
+.block2 {
+    top: 3%;
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+/*Block2.1*/
+.reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%; 
+}
+
+.text1 {
+    font-family: Museo Sans Cyrl;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    font-size: 60px;
+    color: #3E3E3E;
+}
+
+.videos {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.videoright {
+    margin-left: 3%;
+}
+
+.videoright2 {
+    margin-top: 7%;
+}
+
+/*Block2.2*/
+.block22 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.description {
+    margin-top: 5%;
+}
+
+.description1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 140%;
+    letter-spacing: 0.03em;
+    color: #444443;
+
+}
+
+.description2 {
+    margin-top: 5%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #444443;
+}
+
+/*Block2.3*/
+.material1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 270%;
+    letter-spacing: 0.03em;
+    color: #444443;
+}
+
+.material2 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 140%;
+      line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #444443;
+}
+
+.block23 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.materialphoto {
+    margin-left: 2%;
+}
+
+/*Block2.4*/
+.block24 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.construction {
+    margin-left: 4%;
+}
+
+.bag {
+    position: absolute;
+    bottom: -8%;
+}
+
+.client {
+    position: absolute;
+    top: 70%;
+    right:20%;
+}
+
+.client:hover {
+    opacity: 0.6;
+}
+
+.construction1 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 150%;
+    letter-spacing: 0.03em;
+    color: #444443;
+}
+
+.construction2 {
+    margin-top: 5%;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120%;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #444443;
+}
+
+/*Block3*/
+.lake{
+    background: url("./pictures/lake.png");
+    width: 100%;
+    background-position: center;
+}
+
+.lake{
+    top: 3%;
+    position: relative;
+    background-image: url('./pictures/lake.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.reviews2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%; 
+}
+
+.text2 {
+    font-family: Museo Sans Cyrl;
+    font-weight: 900;
+    letter-spacing: 0.03em;
+    font-size: 60px;
+    color: #FFFFFF;
+    margin-top: 3%;
+}
+
+.characteristics {
+    position: relative;
+    right: 16%;
+    margin-top: 5%; 
+    z-index: 2;
+}
+
+.tent1{
+  z-index: 1;
+}
+
+.price {
+    width: 452px; 
+    height: 218px; 
+    background: #fff;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 3;
+    border-radius: 29px;
+    position: relative;
+    top: 70px;
+}
+
+.alltentorder {
+    display: flex;
+    position: relative;
+    margin-bottom: 20%;
+    margin-bottom: 10%;
+}
+
+.tentorder {
+    display: flex;
+    margin-left: 20%;
+}
+
+.price749 {
+    color: #44C15E;
+    font-size: 400%;
+    font-weight: 900;
+}
+
+.discount {
+    position: relative;
+    top: 140px;
+    left: 60px;
+}
+
+.tentprice{
+    position: relative;
+    bottom: 110px;
+    right: 110px;
+    z-index: 4;
+}
+
+.order1 {
+    color: #fff;
+    background-color: #FF8A00;
+    font-size: 200%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    height: 30%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+ /*Block4*/
+.block41 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.tech {
+    margin: 7% 0 7% 0;
+    font-size: 270%;
+}
+
+.tablephoto {
+    display: flex;
+}
+
+/*Table*/
+table {
+    border-collapse: collapse;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    margin-right: 3%;
+}
+
+th {  
+    font-weight: 100; 
+}
+
+td, th {
+    padding: 5px;
+    border: none;
+}
+
+td {
+    text-align: left;
+}
+
+.wrapper {
+    width: 556px;
+    height: 482px;
+    font-weight: 100;
+    margin-right: 3%;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #C1FFCE;
+}
+
+td:nth-of-type(2) {
+    font-family: 'Bad Script', cursive;
+}
+
+
+ tr:hover {
+    color: #03a9f4;
+}
+
+/*End table*/
+.order2 {
+    color: #fff;
+    background-color: #FF8A00;
+    font-size: 200%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    margin-top: 10%;
+    transform: translate(-15%);
+}
+
+.firstformsecond{
+    background-color: #FF8A00;
+    font-size: 170%;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    width: 346px;
+    height: 61px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+/*Block5*/
+.block5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.feedback {
+    font-weight: 600;
+    font-size: 290%;
+    color: #3E3E3E;
+    margin-bottom: 2%;
+}
+
+/*slider*/
+.clients-slider {
+    width: 1048px;
+    height: 249px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.clients-slider  .item {
+    width: 320px;
+    height: 228px;
+    background: #fff;
+    margin-right: 20px;
+    position: relative;
+    z-index: 50;
+    box-shadow: 22px 22px 15px -20px #FF8A00;
+}
+
+.clients-slider  .item  .ava {
+    position: relative;
+    left:120px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    box-shadow: inset 0px -4px 4px 1px rgba(0, 0, 0, 0.25)
+}
+
+.clients-slider  .item .avatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-slider  .item .avatext h6 {
+    font-family: Avenir Next Cyr;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 8px;
+    letter-spacing: 0.1em;
+    color: #353535;
+}
+
+.clients-slider  .item .avatext p {
+    font-family: Avenir Next Cyr;
+    font-size: 17px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: #353535;
+}
+/*end slider*/
+
+/*Block6*/
+/*Form*/
+form, input {
+    font-size: 25px;
+}
+
+input {
+    background-color: #E6F0F9;
+    border-radius: 5px;
+    width: 354px;
+    height: 46px;
+    overflow: hidden;
+    border: none;
+}
+
+label {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+
+
+
+.wrapper {
+    display: flex;
+    margin-left: 6%;
+    width: 5%;
+    font-family: 'Overlock', cursive;
+    padding-left:5%;
+    padding-top: 8%
+}
+
+.wrapper form label input {
+    text-align: center;
+    padding-right: 8%;
+}
+
+/*End Form*/
+.order3 {
+    font-size: 180%;
+}
+
+.manager {
+    margin-top: 1%;
+}
+
+.order4 {
+    font-size: 170%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.block6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+
+}
+
+.twoblocks {
+    display: flex;
+    margin-left: 21%;
+}
+
+.button2 {
+    background-color: #FF8A00;
+    border-radius: 10px;
+    color: #fff;
+    width: 352px;
+    height: 61px;
+}
+
+.bottomtext {
+    font-size: 50%;
+}
+
+#tab11:checked ~ #content11, #tab22:checked ~ #content22 { 
+    display: block; 
+} 
+
+
+/*Block7*/
+
+.block7{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+/*Block8*/
+
+.block8 {
+    background: url("./pictures/sunset.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.howtoorder {
+    margin-top: 8%;
+}
+
+.order4 {
+    margin-top: 3%;
+}
+
+.leftblock1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-right: 2%;
+}
+
+.plus {
+    margin-right: 12%;
+    margin-bottom: 3%;
+}
+
+.twoblocks1 {
+    display: flex;
+}
+
+.button3 {
+    background-color: #FF8A00;
+    border-radius: 10px;
+    color: #fff;
+    width: 352px;
+    height: 61px;
+}
+
+.form1 {
+    position: relative;
+    top: 13%;
+    left: 10%;
+}
+
+/*Block9*/
+.footer {
+    background-color: #E3EAF0;
+}
+
+.infa {
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-right: 7%;
+}
+
+.logo {
+    padding-right: 2%;
+}
+
+.delivery {
+    font-size: 120%;
+    font-weight: 900;
+    color: #757779;
+    margin: 0.1% 0 0 2.5%;
+}
+
+.conferential {
+    font-size: 130%;
+    margin-top: 2.5%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Adaptability*/
+@media screen and (max-width: 1560px) {
+.offerandtent {
+    position: relative;
+    left: 64px;
+}
+
+@media screen and (max-width: 1535px) {
+.tentprice {
+    position: relative;
+    bottom: 75px;
+    right: 64px;
+  }
+.discount {
+    top: 328px;
+    left: -47px;
+  }
+.price {
+    top: 185px;
+    left: -80px;
+  }
+.characteristics {
+    top: 20px;
+  }
+}
+
+
+@media screen and (max-width: 1442px) {
+
+.tenttabs {
+    position: relative;
+    left: -42px;
+    top: 20px;
+}
+
+.wrapper2 {
+    position: relative;
+        left: -72px;
+    top: 43px;
+}
+
+.offer {
+    position: relative;
+    left: 137px;
+  }
+
+  .offerandtent {
+    left: 41px;
+}
+
+.form1 {
+    position: relative;
+    top: 13%;
+    left: 3%;
+}
+
+.firsttentwithicons {
+    left: 153px;
+}
+
+.tent1 {
+    position: relative;
+    top: -105px;
+    left: 30px;
+}
+
+.discount {
+    z-index: 3;
+}
+}
+
+
+@media screen and (max-width: 1282px) {
+
+.block1 {
+    max-height: 100%;
+}
+
+.firsttentwithicons {
+    position: relative;
+    margin-bottom: 4%;
+    top: 282px;
+    left: 174px;
+    width: 569px;
+}
+
+.firsttent {
+    width: 70%;
+    height: 40%;
+}
+
+.iconv, .iconh {
+    width: 40px;
+    height: 40px;
+}
+
+.offer {
+    width: 350px;
+    height: 550px;
+}
+
+.bothicons {
+    position: relative;
+    right: 63px;
+}
+
+.wrapper {
+    position: relative;
+    left: 3px;
+}
+  
+
+.tabs-place {
+    width: 307px;
+    height: 118px;
+    margin: 20px auto 1px; 
+}
+
+.firstform {
+    width: 262px;
+    height: 49px;
+}
+
+form input {
+    width: 100%;
+    font-size: 18px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+
+.characteristics {
+    width: 530px;
+    height: 310px;
+    margin-top: 10px;
+}
+
+.price {
+    width: 350px;
+    height: 145px;
+}
+
+.form1 {
+    width: 80%;
+}
+
+.phototab1 {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.phototab2 {
+    width: 90%;
+    height: 90%;
+    margin-top: 5%;
+}
+
+.form1 {
+    width: 30%;
+}
+  
+.verticalicons {
+    display: none;
+}
+  
+.horizontalicons {
+    position: relative;
+    right: 30px;
+}
+
+.price749 {
+    font-size: 250%;
+}
+
+.order1 {
+    font-size: 150%;
+    height: 40%;
+}
+  
+.wehave {
+    display: none;
+}
+}
+
+
+
+@media screen and (max-width: 1174px) {
+.twoblocks {
+    position: relative;
+    left: -126px;
+}
+  
+.howtoorder {
+    width: 1000px;
+}  
+}
+
+
+@media screen and (max-width: 1112px) {
+.firsttentwithicons {
+    left: 92px;
+    width: 549px;
+}
+}
+
+
+@media screen and (max-width: 1080px) {
+.tablephoto {
+    flex-direction: column;
+}
+}
+
+
+@media screen and (max-width: 1035px) {
+.clients-slider {
+    width: 850px;
+    height: 228px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+
+.clients-slider  .item {
+    width: 80%;
+    height: 80%;
+}
+
+.clients-slider  .item  .ava {
+    width: 80px;
+    height: 80px;
+        left: 85px;
+
+}
+
+
+.clients-slider  .item .avatext h6 {
+    font-size: 80%;
+    letter-spacing: 0em;
+}
+
+.clients-slider  .item .avatext p {
+    font-size: 80%;
+    letter-spacing: 0em;
+}
+
+.firsttentwithicons {
+    left: 80px; 
+}
+
+
+.offer {
+    left: 8%;
+}
+
+.twoblocks {
+  left: -84px;
+}
+
+.howtoorder {
+    margin-top: 6%;
+    width: 900px;
+    height: 265px;
+}
+
+.tent4 {
+  width: 500px;
+  height: 300px;
+}
+
+  .plus{
+    width: 450px;
+    height: 180px;
+  }
+
+  .product {
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 35px;
+    left: 29px;
+
+  }
+
+  .price749 {
+    font-size: 200%;
+  }
+
+  .order1 {
+    font-size: 130%;
+  }
+
+  .tent1 {
+    position: relative;
+    top: -105px;
+    left: 30px;
+    width: 500px;
+    height: 300px;
+}
+.discount {
+    top: 244px;
+    left: -47px;
+}
+
+.rightblock1 {
+  position: relative;
+  right: 100px;
+}
+
+.form2 {
+  position: relative;
+  right: 70px;
+  top: 50px;
+}
+
+.table {
+ font-size: 80%;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.phone {
+  position: relative;
+    left: 25%;
+}
+
+ 
+}
+
+
+@media screen and (max-width: 1020px) {
+.offerandtent {
+    left: -8px;
+}
+
+.offerandtent {
+    left: -8px;
+
+}
+
+
+@media screen and (max-width: 950px) {
+  .secondtext {
+  font-size: 21px;
+}
+.firsttentwithicons {
+    left: -2px;
+    z-index: 0;
+        top: 55px;
+
+}
+
+.offerandtent {
+  flex-direction: column-reverse;
+      left: 294px;
+
+}
+
+.offer {
+    z-index: 1;
+    left: 11px;
+
+}
+
+.clients-slider {
+  width: 750px;
+}
+
+.tablephoto {
+  flex-direction: column;
+}
+
+.tent3 {
+  width: 450px;
+  height: 300px;
+}
+
+.wrapper2 {
+    left: -40px;
+    position: relative;
+  }
+
+.howtoorder {
+  width: 750px;
+  height: 230px;
+}
+
+.tent4 {
+  width: 400px;
+  height: 250px;
+}
+
+ .delivery {
+  display: none;
+}
+
+ 
+
+.tenttabs {
+  left: -40px;
+    position: relative;
+}
+
+.tent {
+  width: 510px;
+}
+
+.parttent {
+  width: 360px;
+}
+
+.material {
+  width: 420px;
+}
+
+.grass {
+  width: 500px;
+}
+
+}
+
+@media screen and (max-width: 910px) {
+.offerandtent {
+    left: 279px;
+}
+}
+
+@media screen and (max-width: 865px) {
+.offerandtent {
+    left: 237px;
+}
+}
+
+@media screen and (max-width: 810px) {
+.firsttentwithicons {
+  left: -1px;
+  }
+
+  .twoblocks {
+    left: -50px;
+}
+}
+
+
+@media screen and (max-width: 810px) {
+ .firsttentwithicons {
+  margin-top: 20px;
+ }
+
+ .offerandtent {
+  flex-direction: column-reverse;
+  position: relative;
+    left: 98px;
+ }
+
+ .offer {
+      left: 42px;
+
+ }
+
+ .firsttentwithicons {
+  position: relative;
+  bottom: 200px;
+  
+    top: 61px;
+    left: 33px;
+ }
+
+ .bothicons {
+   
+    top: -29px;
+}
+
+ .text1 {
+  font-size: 40px;
+  justify-content: center;
+ }
+
+ .videoright {
+  display: none;
+ }
+
+ .block22 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .description1 {
+    text-align:  center;
+}
+
+.description2 {
+    text-align:  center;
+ }
+
+ .tent {
+  width: 450px;
+  height: 340px;
+ }
+
+ .block23 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .material1 {
+    text-align:  center;
+ }
+
+  .material2 {
+    text-align:  center;
+ }
+
+ .parttent {
+  top: 10px;
+position: relative;
+}
+
+.block24 {
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 10px;
+  margin-bottom: 20px;
+ }
+
+ .construction1{
+    text-align:  center;
+ }
+ .construction2{
+    text-align:  center;
+    margin-bottom: 10px;
+ }
+
+ .client {
+      top: -33%;
+ }
+
+ 
+
+ .text2 {
+  font-size: 50px;
+  margin-top: 58px;
+ }
+
+ .characteristics {
+position: relative;
+    left: -6px;
+    z-index: 1;
+}
+
+.tentprice {
+  z-index: 0;
+  
+}
+
+.tent1 {
+  width: 350px;
+  height: 260px;
+}
+
+.discount {
+    top: 208px;
+}
+
+.price{
+  top: 100px;
+}
+
+.product {
+  position: relative;
+  left: 20px;
+}
+
+.clients-slider {
+  width: 610px;
+  height: 229px;
+  
+}
+
+.twoblocks {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper2 {
+          left: 22px;
+    width: 400px;
+}
+
+.howtoorder {
+  width: 650px;
+}
+
+.twoblocks1 {
+   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightblock1 {
+    position: relative;
+    right: -54px;
+}
+
+.contacts {
+  width: 400px;
+  height: 30px;
+}
+
+.logo {
+  width: 150px;
+  height: 30px;
+}
+}
+
+@media screen and (max-width: 890px) {
+.clients-slider .item .ava {
+
+    left: 137px;
+}
+}
+
+@media screen and (max-width: 810px) {
+.offerandtent {
+    flex-direction: column-reverse;
+    position: relative;
+    left: 173px;
+}
+
+.clients-slider .item .ava {
+
+    left: 100px;
+}
+
+.phone {
+    left: 359px;
+}
+}
+
+@media screen and (max-width: 760px) {
+.firsttentwithicons {
+    position: relative;
+    bottom: 200px;
+    top: 61px;
+    left: 33px;
+}
+}
+
+
+
+@media screen and (max-width: 760px) {
+.offerandtent {
+    left: 81px;
+}
+.phone {
+    left: 278px;
+}
+}
+
+@media screen and (max-width: 660px) {
+.offerandtent {
+    left: 7px;
+}
+
+.firsttentwithicons {
+  width: 350px;
+  left: 93px;
+    top: 40px;
+}
+
+.bothicons {
+    top: -19px;
+    left: -31px;
+}
+
+video {
+  width: 420px;
+}
+
+.bag {
+  width: 420px;
+  height: 270px;
+}
+.grass {
+  width: 400px;
+  height: 250px;
+}
+.parttent {
+  height: 270px;
+}
+
+.text2 {
+    font-size: 34px;
+}
+
+.characteristics {
+    width: 400px;
+    height: 210px;
+}
+
+.tent1 {
+    width: 250px;
+    height: 180px;
+}
+
+.discount {
+        top: 103px;
+    left: -6px;
+    width: 80px;
+    height: 80px;
+}
+
+.price {
+    top: 48px;
+        left: -52px;
+
+}
+
+.price749 {
+    font-size: 183%;
+    margin-top: 17px;
+}
+
+.order1 {
+    font-size: 109%;
+}
+
+.tentprice {
+    z-index: 0;
+    top: 20px;
+}
+
+.product {
+    width: 420px;
+    height: 380px;
+        left: 2px;
+}
+
+.feedback {
+    
+    text-align: center;
+}
+
+.stars {
+  width: 420px;
+  height: 120px;
+
+}
+
+.clients-slider {
+  width: 490px;
+  height: 180px;
+}
+
+
+
+.howtoorder {
+    width: 420px;
+    height: 150px;
+}
+
+.plus {
+ 
+    width: 400px;
+    height: 150px;
+    position: relative;
+    left: -11px;
+}
+
+.logo {
+  display: none;
+}
+
+.rightblock1 {
+    position: relative;
+    right: -14px;
+}
+
+.tent3 {
+  left: 28px;
+    position: relative;
+}
+
+.form2 {
+    right: 50px;
+}
+
+.tech {
+    font-size: 187%;
+}
+
+.rightblock1 {
+    position: relative;
+    right: 13px;
+    width: 400px;
+}
+
+
+
+}
+
+@media screen and (max-width: 660px) {
+
+.offerandtent {
+      left: 170px;
+
+}
+
+}
+
+@media screen and (max-width: 660px) {
+
+#modal1 .modal-content1 {
+    max-width: 317px;
+    height: 520px;
+        margin-top: 20%;
+}
+
+
+#modal1 .modal-content1 button {
+    width: 212px; 
+}
+
+#modal .modal-content {  
+    max-width: 317px;
+    height: 520px;
+    margin-top: 20%;  
+}
+
+
+#modal .modal-content button { 
+    width: 212px;
+}
+
+
+
+.firsttentwithicons {
+    width: 263px;
+    left: 52px;
+    top: 40px;
+        margin-bottom: 20px;
+}
+
+.horizontalicons {
+    position: relative;
+    right: 17px;
+    top: 12px;
+    width: 200px;
+}
+.offer {
+    z-index: 1;
+    left: 8px;
+    width: 280px;
+}
+
+.tabs-place {
+    width: 260px;
+    height: 111px;
+    margin: 10px auto 1px;
+}
+
+.phototab1 {
+    margin-top: 18%;
+}
+
+.phototab2 {
+    margin-top: 18%;
+}
+
+
+.secondtab {
+  position: relative;
+      left: 38px;
+
+}
+
+
+.wrapper form label input {
+   
+    width: 220px;
+}
+
+.firstform {
+    width: 220px;
+    height: 49px;
+}
+
+label {
+    
+    font-size: 80%;
+}
+
+.text1 {
+    font-size: 24px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+video {
+    width: 310px;
+}
+
+.description1 {
+    font-size: 120%;
+}
+
+.description2 {
+    font-size: 93%;
+}
+
+.tent {
+    width: 310px;
+    height: 200px;
+}
+
+.material1 {
+    font-size: 185%;
+}
+
+.material2 {
+    
+    font-size: 82%;
+}
+
+.parttent {
+    height: 205px;
+        width: 310px;
+
+}
+
+.client {
+    position: absolute;
+    right: 3%;
+        width: 26%;
+    height: 35%;
+    top: -183px;
+    margin-top: 77px;
+}
+
+.bag {
+    width: 315px;
+    height: 234px;
+        bottom: -16%;
+}
+
+.grass {
+    width: 319px;
+    height: 193px;
+}
+
+.text2 {
+    font-size: 27px;
+}
+
+.characteristics {
+    width: 286px;
+    height: 166px;
+}
+
+.price749 {
+    font-size: 185%;
+    margin-top: 3px;
+
+}
+
+.price {
+      height: 108px;
+        border-radius: 15px;
+
+}
+
+.order1 {
+    height: 40%;
+    width: 68%;
+    font-size: 17px;
+}
+
+.tech {
+    font-size: 135%;
+}
+
+.table {
+  display: none;
+}
+
+
+.product {
+  width: 310px;
+  height: 280px;
+    top: 0px;
+
+  }
+
+  .tent1 {
+        width: 215px;
+    height: 159px;
+  }
+
+  .firstformsecond {
+    font-size: 151%;
+    width: 241px;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.feedback {
+      font-size: 203%;
+}
+
+.stars {
+    width: 299px;
+    height: 85px;
+}
+
+.clients-slider {
+  width: 471px;
+  height: 207px;
+}
+
+.clients-slider .item .ava {
+  left: 66px;
+}
+
+.order3 {
+    font-size: 148%;
+}
+
+.order4 {
+  
+    font-size: 110%;
+
+}
+
+.tent3 {
+    width: 309px;
+    height: 189px;
+}
+
+.phototab {
+  width: 160px;
+    height: 100px;
+    position: relative;
+    top: 39px; 
+}
+
+label {
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper2 {
+    left: 20px;
+    width: 289px;
+}
+
+.button2 {
+  
+    width: 219px;
+    height: 48px;
+}
+
+.bottomtext {
+  display: none;
+}
+
+.howtoorder {
+    width: 310px;
+    height: 111px;
+    margin-top: -98px;
+}
+
+.tent4 {
+    width: 296px;
+    height: 166px;
+}
+
+.plus {
+    width: 290px;
+    height: 119px;
+    
+}
+
+.button3 {
+    
+    width: 220px;
+    height: 52px;
+}
+
+.rightblock1 {
+    
+    width: 270px;
+}
+
+.conferential1 {
+  font-size: 80%;
+}
+
+.contacts {
+    width: 294px;
+    height: 21px;
+}
+
+.conferential1 {
+    font-size: 63%;
+}
+
+.material {
+    width: 300px;
+}
+
+.secondtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.phone {
+    position: relative;
+    left: 31%;
+}
+.allwrapper {
+    top: 20px;
+    left: -23px;
+    position: relative;
+}
+
+.footer {
+    background-color: #E3EAF0;
+    margin-top: -59px;
+}
+
+.order4 {
+    font-size: 127%;
+}
+}
+
+@media screen and (max-width: 580px) {
+.offerandtent {
+    left: 64px;
+}
+
+.form1 {;
+    position: relative;
+    left: 22px;
+}
+
+.form2 {
+    right: 31px;
+}
+
+.firsttentwithicons {
+    left: 87px;
+}
+
+.offer {
+    left: 38px;
+}
+
+.clients-slider .item .ava {
+  left: 191px;
+}
+}
+
+
+
+@media screen and (max-width: 450px) {
+.offerandtent {
+    left: 22px;
+}
+
+.clients-slider .item .ava {
+  left: 101px;
+}
+
+.client {
+    width: 50%;
+    height: 40%;
+}
+
+.clients-slider {
+    width: 300px;
+    height: 220px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .twoblocks {
+    left: -26px;
+}
+
+.wrapper2 {
+    left: 21px;
+}
+
+.phone {
+      left: 18%;
+
+}
+
+.client {
+  width: 50%;
+  height: 40%;
+}
+
+.price749 {
+    font-size: 119%;
+    margin-top: 14px;
+}
+}
+
+@media screen and (max-width: 400px) {
+   .wrapper2{ 
+    left: 11px;
+   }
+
+.order1 {
+    width: 97%;
+}
+
+   .offerandtent {
+    left: 14px;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+.offerandtent {
+    left: 10px;
+}
+}
+
+@media screen and (max-width: 370px) {
+.offerandtent {
+    left: -25px;
+}
+}
+
+@media screen and (max-width: 370px) {
+.offerandtent {
+    left: -25px;
+}
+}
+
+@media screen and (max-width: 361px) {
+
+.firsttentwithicons {
+    left: 114px;
+}
+
+.offer {
+    left: 64px;
+}
+
+
+
+.offerandtent {
+    left: -27px;
+}
+}
+
+@media screen and (max-width: 359px) {
+
+.offerandtent {
+    left: -53px;
+}
+}
+
+@media screen and (min-width: 1282px) {
+ div .allwrapper {
+        position: relative;
+
+top: 45px;  }
+}
